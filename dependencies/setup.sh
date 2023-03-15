@@ -31,3 +31,6 @@ sudo make install
 sudo apt-get install clang -y
 sudo apt install libbpf-dev -y
 sudo apt install llvm -y
+
+## Help tools for Mellanox smartNIC
+sudo apt-get install dkms
