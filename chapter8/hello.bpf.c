@@ -9,7 +9,9 @@ int ping(struct xdp_md *ctx) {
     if (protocol == 1) // ICMP 
     {
         bpf_printk("Hello ping");
-        // return XDP_DROP; 
+        return XDP_DROP; 
     }
     return XDP_PASS;
 }
+
+char LICENSE[] SEC("license") = "Dual BSD/GPL";
