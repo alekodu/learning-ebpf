@@ -10,7 +10,8 @@ sudo apt install python3-bpfcc
 ## Install make and other essential tools
 sudo apt-get install build-essential -y
 sudo apt install linux-tools-common
-sudo apt install linux-cloud-tools-generic
+sudo apt install linux-tools-generic -y
+sudo apt install linux-cloud-tools-generic -y
 sudo apt install linux-tools-5.15.0-72-generic -y
 sudo apt install linux-cloud-tools-5.15.0-72-generic -y
 
